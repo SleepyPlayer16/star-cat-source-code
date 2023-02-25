@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/voices.ogg-6fba1087a5f22c7ba5d14242cbe0dff1.oggstr"
+
+[deps]
+
+source_file="res://packages/spacedance/songs/dysphoria/voices.ogg"
+dest_files=[ "res://.import/voices.ogg-6fba1087a5f22c7ba5d14242cbe0dff1.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

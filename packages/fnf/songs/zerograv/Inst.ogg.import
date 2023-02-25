@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Inst.ogg-8150236714a1eda5df0d7748f631bdc3.oggstr"
+
+[deps]
+
+source_file="res://packages/fnf/songs/zerograv/Inst.ogg"
+dest_files=[ "res://.import/Inst.ogg-8150236714a1eda5df0d7748f631bdc3.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

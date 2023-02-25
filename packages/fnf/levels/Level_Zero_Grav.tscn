@@ -1,0 +1,244 @@
+[gd_scene load_steps=28 format=2]
+
+[ext_resource path="res://scenes/shared/game/characters/Girlfriend.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scenes/shared/game/HUDPackage2D.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scenes/shared/game/characters/Boyfriend.tscn" type="PackedScene" id=3]
+[ext_resource path="res://packages/fnf/scripts/game/levels/Level_Stage.gd" type="Script" id=4]
+[ext_resource path="res://packages/fnf/resources/graphics/week1/stageback.png" type="Texture" id=5]
+[ext_resource path="res://packages/fnf/resources/graphics/week1/stagecurtains.png" type="Texture" id=6]
+[ext_resource path="res://packages/fnf/resources/graphics/week1/stagefront.png" type="Texture" id=7]
+[ext_resource path="res://packages/fnf/resources/graphics/week1/back.png" type="Texture" id=9]
+[ext_resource path="res://packages/fnf/characters/anita/Anita2D.tscn" type="PackedScene" id=10]
+[ext_resource path="res://packages/spacedance/zerogravCam.gd" type="Script" id=11]
+[ext_resource path="res://packages/fnf/resources/graphics/week1/sky1.png" type="Texture" id=12]
+[ext_resource path="res://packages/fnf/resources/graphics/week1/spaceEnvironment2.tres" type="Environment" id=13]
+[ext_resource path="res://packages/fnf/resources/graphics/week1/Clouds.png" type="Texture" id=14]
+[ext_resource path="res://packages/fnf/resources/graphics/week1/ship2D.tscn" type="PackedScene" id=15]
+[ext_resource path="res://packages/fnf/resources/graphics/week1/shipinsideT.tscn" type="PackedScene" id=16]
+[ext_resource path="res://packages/fnf/characters/anita/Anita.tscn" type="PackedScene" id=17]
+[ext_resource path="res://packages/fnf/resources/graphics/week1/ship/ship.tscn" type="PackedScene" id=18]
+[ext_resource path="res://assets/models/spaceCylinder.tscn" type="PackedScene" id=19]
+[ext_resource path="res://assets/models/shaders/crtShader.tres" type="Shader" id=20]
+[ext_resource path="res://packages/fnf/resources/planetGenerator.tscn" type="PackedScene" id=21]
+[ext_resource path="res://scenes/shared/game/characters/Boyfriend3D.tscn" type="PackedScene" id=22]
+[ext_resource path="res://packages/fnf/characters/anita/AnitaIconExtended.tscn" type="PackedScene" id=23]
+[ext_resource path="res://scenes/shared/game/characters/Girlfriend3d.tscn" type="PackedScene" id=24]
+[ext_resource path="res://tools/Song_Composers.tscn" type="PackedScene" id=25]
+[ext_resource path="res://packages/fnf/resources/graphics/week1/blackhole.png" type="Texture" id=26]
+
+[sub_resource type="CanvasItemMaterial" id=1]
+blend_mode = 1
+light_mode = 1
+
+[sub_resource type="ShaderMaterial" id=2]
+shader = ExtResource( 20 )
+shader_param/overlay = true
+shader_param/scanlines_opacity = 0.0
+shader_param/scanlines_width = 0.0
+shader_param/grille_opacity = 0.333
+shader_param/resolution = Vector2( 640, 480 )
+shader_param/pixelate = false
+shader_param/roll = true
+shader_param/roll_speed = 3.0
+shader_param/roll_size = 16.099
+shader_param/roll_variation = 2.393
+shader_param/distort_intensity = 0.006
+shader_param/noise_opacity = 0.257
+shader_param/noise_speed = 5.0
+shader_param/static_noise_intensity = 0.06
+shader_param/aberration = -0.014
+shader_param/brightness = 1.4
+shader_param/discolor = false
+shader_param/warp_amount = 0.341
+shader_param/clip_warp = false
+shader_param/vignette_intensity = 0.4
+shader_param/vignette_opacity = 0.192
+
+[node name="Level" type="WorldEnvironment"]
+environment = ExtResource( 13 )
+script = ExtResource( 4 )
+performers = {
+"metronome": "gf",
+"opponent": "dad",
+"player": "bf"
+}
+character_paths = {
+"bf": NodePath("Boyfriend"),
+"dad": NodePath("Anita"),
+"gf": NodePath("ParallaxBackground/GF/Girlfriend")
+}
+step_zone_paths = {
+"opponent": NodePath("HUDPackage2D/HUD/Visible_Elements/Opponent_Step_Zone"),
+"player": NodePath("HUDPackage2D/HUD/Visible_Elements/Player_Step_Zone")
+}
+hud_path = NodePath("HUDPackage2D/HUD")
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 1.74846e-07, 0, 1, 0, -1.74846e-07, 0, 1, -290.24, 118.702, 19.478 )
+far = 268.7
+script = ExtResource( 11 )
+
+[node name="Generator" parent="." instance=ExtResource( 21 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -293.378, 121.513, -29.5035 )
+
+[node name="Generator2" parent="." instance=ExtResource( 21 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -293.378, 112.886, -36.5875 )
+
+[node name="Generator3" parent="." instance=ExtResource( 21 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -286.378, 116.886, -49.412 )
+
+[node name="Generator4" parent="." instance=ExtResource( 21 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -300.378, 116.886, -58.8167 )
+
+[node name="Generator5" parent="." instance=ExtResource( 21 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -243.342, 121.513, -29.5035 )
+
+[node name="Generator6" parent="." instance=ExtResource( 21 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -339.048, 105.468, -11.3755 )
+
+[node name="shipinside2" parent="." instance=ExtResource( 16 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.204, -7.82, 0.755 )
+
+[node name="Boyfriend" parent="." instance=ExtResource( 22 )]
+transform = Transform( 0.0477095, 0, -0.0563408, 0, 0.0738274, 0, 0.0563408, 0, 0.0477095, -293.809, 116.836, 7.84859 )
+
+[node name="Anita" parent="." instance=ExtResource( 17 )]
+transform = Transform( -0.0738274, 0, 6.09682e-09, 0, 0.0738274, 0, -6.09682e-09, 0, -0.0738274, -293.366, 117.222, 8.21757 )
+icon = ExtResource( 23 )
+
+[node name="Girlfriend" parent="." instance=ExtResource( 24 )]
+transform = Transform( -0.0713118, 0, 0.0191079, 0, 0.0738274, 0, -0.0191079, 0, -0.0713118, -293.856, 116.864, 8.36211 )
+render_priority = -1
+idle_frequency = 1
+
+[node name="spaceCylinder" parent="." instance=ExtResource( 19 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -293.43, 118.447, 9.2999 )
+
+[node name="ship" parent="." instance=ExtResource( 18 )]
+transform = Transform( -0.560205, 0, -4.89747e-08, 0, 0.560205, 0, 4.89747e-08, 0, -0.560205, -293.351, 115.403, 9.07134 )
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="BG" type="ParallaxLayer" parent="ParallaxBackground"]
+visible = false
+motion_scale = Vector2( 0.9, 0.9 )
+
+[node name="Stageback" type="Sprite" parent="ParallaxBackground/BG"]
+visible = false
+position = Vector2( -600, -200 )
+z_index = -3
+texture = ExtResource( 5 )
+centered = false
+
+[node name="Stagefront" type="Sprite" parent="ParallaxBackground/BG"]
+visible = false
+position = Vector2( -650, 600 )
+scale = Vector2( 1.1, 1.1 )
+z_index = -2
+texture = ExtResource( 7 )
+centered = false
+
+[node name="Back" type="Sprite" parent="ParallaxBackground/BG"]
+position = Vector2( 613.333, 492.813 )
+scale = Vector2( 0.977431, 0.979282 )
+texture = ExtResource( 9 )
+
+[node name="GF" type="ParallaxLayer" parent="ParallaxBackground"]
+visible = false
+motion_scale = Vector2( 0.95, 0.95 )
+
+[node name="Girlfriend" parent="ParallaxBackground/GF" instance=ExtResource( 1 )]
+
+[node name="Battle" type="ParallaxLayer" parent="ParallaxBackground"]
+visible = false
+
+[node name="Boyfriend" parent="ParallaxBackground/Battle" instance=ExtResource( 3 )]
+
+[node name="Anita" parent="ParallaxBackground/Battle" instance=ExtResource( 10 )]
+position = Vector2( -14, 162 )
+
+[node name="FG" type="ParallaxLayer" parent="ParallaxBackground"]
+visible = false
+motion_scale = Vector2( 0, 0 )
+
+[node name="Sky1" type="Sprite" parent="ParallaxBackground/FG"]
+position = Vector2( 30.6662, 14.9999 )
+scale = Vector2( 0.906944, 0.872222 )
+texture = ExtResource( 12 )
+
+[node name="Clouds" type="Sprite" parent="ParallaxBackground/FG"]
+modulate = Color( 1, 1, 1, 0.356863 )
+material = SubResource( 1 )
+position = Vector2( 24.6664, 132 )
+scale = Vector2( 0.899, 0.682 )
+texture = ExtResource( 14 )
+
+[node name="Stagecurtains" type="Sprite" parent="ParallaxBackground/FG"]
+visible = false
+position = Vector2( -350, -150 )
+scale = Vector2( 0.9, 0.9 )
+texture = ExtResource( 6 )
+centered = false
+
+[node name="Ship2D" parent="ParallaxBackground/FG" instance=ExtResource( 15 )]
+position = Vector2( 18.6662, 181 )
+scale = Vector2( 0.761277, 0.746598 )
+
+[node name="HUDPackage2D" parent="." instance=ExtResource( 2 )]
+
+[node name="Cam_HUD" parent="HUDPackage2D" index="2"]
+zoom = Vector2( 1.111, 1.111 )
+
+[node name="Ratings_List" parent="HUDPackage2D/HUD/Visible_Elements" index="0"]
+position = Vector2( 350, 320 )
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="."]
+layer = -4
+
+[node name="whiteScreen" type="ColorRect" parent="CanvasLayer2"]
+margin_right = 1297.0
+margin_bottom = 763.0
+
+[node name="AuthorLayer" type="CanvasLayer" parent="."]
+layer = 0
+
+[node name="ColorRect2" parent="AuthorLayer" instance=ExtResource( 25 )]
+margin_left = 0.0
+margin_top = 176.0
+margin_right = 431.0
+margin_bottom = 278.0
+composers = "Stardust Tunes, SleP16"
+songName = "Zero Gravity Dance"
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+material = SubResource( 2 )
+margin_right = 38.0
+margin_bottom = 32.0
+rect_scale = Vector2( 33.711, 22.56 )
+
+[node name="BlackBar" type="ColorRect" parent="CanvasLayer"]
+margin_right = 1285.0
+margin_bottom = 82.0
+color = Color( 0, 0, 0, 1 )
+
+[node name="BlackBar2" type="ColorRect" parent="CanvasLayer"]
+margin_top = 638.0
+margin_right = 1285.0
+margin_bottom = 720.0
+color = Color( 0, 0, 0, 1 )
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform( 48.023, 0, 0, 0, 48.023, 0, 0, 0, 1, -295.72, 116.174, -248.745 )
+texture = ExtResource( 26 )
+
+[node name="TransLayer" type="CanvasLayer" parent="."]
+layer = 0
+
+[node name="ColorRect" type="ColorRect" parent="TransLayer"]
+margin_right = 1512.0
+margin_bottom = 872.0
+color = Color( 0, 0, 0, 1 )
+
+[editable path="HUDPackage2D"]

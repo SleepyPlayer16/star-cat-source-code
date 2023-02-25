@@ -1,0 +1,37 @@
+{
+	"color": "#ffff35fc",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1671854103.json",
+	"mirror_portraits": false,
+	"name": "Spamé",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -120,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://packages/fnf/characters/spame/spameNormal.png"
+		},
+		{
+			"name": "spameDiscuss",
+			"path": "res://packages/fnf/characters/spame/spameDiscuss.png"
+		},
+		{
+			"name": "spameCalm",
+			"path": "res://packages/fnf/characters/spame/spameCalm.png"
+		},
+		{
+			"name": "spameAnnoyed",
+			"path": "res://packages/fnf/characters/spame/spameAnnoyed.png"
+		},
+		{
+			"name": "Empty",
+			"path": ""
+		}
+	],
+	"scale": 200,
+	"theme": ""
+}

@@ -1,0 +1,25 @@
+{
+	"color": "#ff40edff",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1671814353.json",
+	"mirror_portraits": false,
+	"name": "Boyfriend",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": -40,
+	"offset_y": -200,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://assets/graphics/boyfriend/bfPortrait.png"
+		},
+		{
+			"name": "bfPortraitNormal",
+			"path": "res://assets/graphics/boyfriend/bfPortraitNormal.png"
+		}
+	],
+	"scale": 100,
+	"theme": ""
+}

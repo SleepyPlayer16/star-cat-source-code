@@ -1,0 +1,287 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1652502100.cfg"
+		},
+		{
+			"background": "res://packages/fnf/resources/graphics/week6/textboxes/pixel_day_bg.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://assets/music/mus_memories.ogg",
+			"volume": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1671814157.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1671814353.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "bfPortraitNormal",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1671814157.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Heh, not bad.\nYou managed to keep up with me."
+		},
+		{
+			"character": "character-1671814353.json",
+			"event_id": "dialogic_001",
+			"portrait": "bfPortraitNormal",
+			"text": "Thanks, ur lyrics where kinda edgy tho."
+		},
+		{
+			"character": "character-1671814157.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "...Yeah, I got carried away.\nSorry, singing like this brought some bad memories of the past."
+		},
+		{
+			"character": "character-1671814353.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "But you are a doll, what kinda bad memories could you have?"
+		},
+		{
+			"character": "character-1671814157.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Heh\nI was a human, just like you.\n...I wasn't happy with who I was, so I came to this place to make a wish and change that.\nI was offered to be this cursed doll with a cool as fuck axe before I could make my wish, and I accepted the offer.\nNow I've got cool reality warping powers. And an axe."
+		},
+		{
+			"character": "character-1671814353.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Can you double jump"
+		},
+		{
+			"character": "character-1671814157.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hell yeah, of course I can"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alright, that's enough."
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 0,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1671814157.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Uh oh..."
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 0,
+			"file": "res://assets/music/ominous.ogg",
+			"volume": 0
+		},
+		{
+			"animation": "instant_out.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1671814157.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1671854103.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": true,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1671854103.json",
+			"event_id": "dialogic_001",
+			"portrait": "spameAnnoyed",
+			"text": "You better get ready for when I come back Jazz, how many times have I told you not to mess around with reality?"
+		},
+		{
+			"character": "character-1671854103.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "And you, blue-haired creature, you're coming with me."
+		},
+		{
+			"character": "character-1671814353.json",
+			"event_id": "dialogic_001",
+			"portrait": "bfPortraitNormal",
+			"text": "I ain't comin' with you bitch"
+		},
+		{
+			"character": "character-1671854103.json",
+			"event_id": "dialogic_001",
+			"portrait": "spameAnnoyed",
+			"text": "I wasn't asking."
+		},
+		{
+			"animation": "instant_out.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1671814353.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "instant_out.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1671854103.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://packages/fnf/resources/graphics/week1/Cutscenes/Dysphoria/blackbg.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 0
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 0,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3,
+			"waiting_skippable": true
+		},
+		{
+			"background": "res://packages/fnf/resources/graphics/week1/tobecontinued.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 4,
+			"waiting_skippable": true
+		},
+		{
+			"background": "res://packages/fnf/resources/graphics/week1/Cutscenes/Dysphoria/blackbg.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3,
+			"waiting_skippable": true
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 0
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.1",
+		"file": "timeline-1677057880.json",
+		"name": "DysphoriaEnd"
+	}
+}

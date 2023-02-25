@@ -1,0 +1,10 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://scripts/resources/mod_credits/ModCredits.gd" type="Script" id=1]
+[ext_resource path="res://assets/graphics/menus/credits/bk_icon_small.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+mod_icon = ExtResource( 2 )
+mod_name = "Star Cat"
+credits = [  ]

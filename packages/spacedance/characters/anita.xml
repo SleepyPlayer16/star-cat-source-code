@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="anita.png">
+<SubTexture name="anita anitaIDLE0000" x="0" y="0" width="857" height="757" frameX="0" frameY="0" frameWidth="837" frameHeight="737" />
+<SubTexture name="anita anitaIDLE0001" x="857" y="0" width="857" height="757" frameX="0" frameY="0" frameWidth="837" frameHeight="737" />
+<SubTexture name="anita anitaIDLE0002" x="1714" y="0" width="857" height="757" frameX="0" frameY="0" frameWidth="837" frameHeight="737" />
+<SubTexture name="anita anitaIDLE0003" x="2571" y="0" width="857" height="757" frameX="0" frameY="0" frameWidth="837" frameHeight="737" />
+<SubTexture name="anita anitaIDLE0004" x="0" y="757" width="857" height="757" frameX="0" frameY="0" frameWidth="837" frameHeight="737" />
+<SubTexture name="anita anitaIDLE0005" x="857" y="757" width="857" height="757" frameX="0" frameY="0" frameWidth="837" frameHeight="737" />
+<SubTexture name="anita anitaUP0000" x="1714" y="757" width="857" height="757" frameX="0" frameY="0" frameWidth="837" frameHeight="737" />
+<SubTexture name="anita anitaUP0001" x="2571" y="757" width="857" height="757" frameX="0" frameY="0" frameWidth="837" frameHeight="737" />
+<SubTexture name="anita anitaUP0002" x="0" y="1514" width="857" height="757" frameX="0" frameY="0" frameWidth="837" frameHeight="737" />
+<SubTexture name="anita anitaUP0003" x="857" y="1514" width="857" height="757" frameX="0" frameY="0" frameWidth="837" frameHeight="737" />
+<SubTexture name="anita anitaUP0004" x="1714" y="1514" width="857" height="757" frameX="0" frameY="0" frameWidth="837" frameHeight="737" />
+<SubTexture name="anita anitaRIGHT0000" x="2571" y="1514" width="857" height="757" frameX="0" frameY="0" frameWidth="837" frameHeight="737" />
+<SubTexture name="anita anitaRIGHT0001" x="0" y="2271" width="857" height="757" frameX="0" frameY="0" frameWidth="837" frameHeight="737" />
+<SubTexture name="anita anitaRIGHT0002" x="857" y="2271" width="857" height="757" frameX="0" frameY="0" frameWidth="837" frameHeight="737" />
+<SubTexture name="anita anitaRIGHT0003" x="1714" y="2271" width="857" height="757" frameX="0" frameY="0" frameWidth="837" frameHeight="737" />
+<SubTexture name="anita anitaRIGHT0004" x="2571" y="2271" width="857" height="757" frameX="0" frameY="0" frameWidth="837" frameHeight="737" />
+<SubTexture name="anita anitaDOWN0000" x="0" y="3028" width="857" height="757" frameX="0" frameY="0" frameWidth="837" frameHeight="737" />
+<SubTexture name="anita anitaDOWN0001" x="857" y="3028" width="857" height="757" frameX="0" frameY="0" frameWidth="837" frameHeight="737" />
+<SubTexture name="anita anitaDOWN0002" x="1714" y="3028" width="857" height="757" frameX="0" frameY="0" frameWidth="837" frameHeight="737" />
+<SubTexture name="anita anitaDOWN0003" x="2571" y="3028" width="857" height="757" frameX="0" frameY="0" frameWidth="837" frameHeight="737" />
+<SubTexture name="anita anitaDOWN0004" x="0" y="3785" width="857" height="757" frameX="0" frameY="0" frameWidth="837" frameHeight="737" />
+<SubTexture name="anita anitaLEFT0000" x="857" y="3785" width="857" height="757" frameX="0" frameY="0" frameWidth="837" frameHeight="737" />
+<SubTexture name="anita anitaLEFT0001" x="1714" y="3785" width="857" height="757" frameX="0" frameY="0" frameWidth="837" frameHeight="737" />
+<SubTexture name="anita anitaLEFT0002" x="2571" y="3785" width="857" height="757" frameX="0" frameY="0" frameWidth="837" frameHeight="737" />
+<SubTexture name="anita anitaLEFT0003" x="0" y="4542" width="857" height="757" frameX="0" frameY="0" frameWidth="837" frameHeight="737" />
+<SubTexture name="anita anitaLEFT0004" x="857" y="4542" width="857" height="757" frameX="0" frameY="0" frameWidth="837" frameHeight="737" />
+</TextureAtlas>

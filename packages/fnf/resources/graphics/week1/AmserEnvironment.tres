@@ -1,0 +1,16 @@
+[gd_resource type="Environment" load_steps=2 format=2]
+
+[ext_resource path="res://packages/fnf/resources/graphics/week1/spacePanorama.tres" type="PanoramaSky" id=1]
+
+[resource]
+background_mode = 2
+background_sky = ExtResource( 1 )
+background_energy = 1.58
+ambient_light_color = Color( 0.596078, 0.498039, 0.564706, 1 )
+ambient_light_energy = 3.76
+ambient_light_sky_contribution = 0.45
+fog_enabled = true
+fog_color = Color( 0.364706, 0.207843, 0.596078, 1 )
+fog_sun_color = Color( 0.788235, 0.682353, 0.47451, 1 )
+fog_depth_begin = 0.0
+fog_depth_end = 195.8

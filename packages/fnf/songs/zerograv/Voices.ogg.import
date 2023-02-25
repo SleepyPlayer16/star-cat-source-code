@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Voices.ogg-c1c26625485fd963910501493971a9cd.oggstr"
+
+[deps]
+
+source_file="res://packages/fnf/songs/zerograv/Voices.ogg"
+dest_files=[ "res://.import/Voices.ogg-c1c26625485fd963910501493971a9cd.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

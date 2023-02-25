@@ -1,0 +1,37 @@
+{
+	"color": "#ff40edff",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1676371887.json",
+	"mirror_portraits": false,
+	"name": "Anita",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 80,
+	"offset_y": -200,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://packages/fnf/resources/graphics/week1/Anita/Anita1.png"
+		},
+		{
+			"name": "Playful",
+			"path": "res://packages/fnf/resources/graphics/week1/Anita/Anita2.png"
+		},
+		{
+			"name": "Happy",
+			"path": "res://packages/fnf/resources/graphics/week1/Anita/Anita3.png"
+		},
+		{
+			"name": "Nervous",
+			"path": "res://packages/fnf/resources/graphics/week1/Anita/Anita4.png"
+		},
+		{
+			"name": "Scared",
+			"path": "res://packages/fnf/resources/graphics/week1/Anita/Anita5.png"
+		}
+	],
+	"scale": 100,
+	"theme": ""
+}

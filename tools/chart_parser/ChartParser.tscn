@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://tools/chart_parser/ChartParser.gd" type="Script" id=1]
+
+[node name="ChartParser" type="Node"]
+script = ExtResource( 1 )
+json_name = "journey"
+mod_name = "spacedance"
+inst_name_and_ext = "Inst.ogg"
+vocals_name_and_ext = "Voices.ogg"
+result_suffixes = [ "_hard" ]
+chart_type = 3
+difficulties = PoolIntArray( 0 )
+fnf_chart_naming = true
+num_lanes = 4
+psych_separate_gf_lanes = false

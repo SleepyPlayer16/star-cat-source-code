@@ -1,0 +1,21 @@
+{
+	"color": "#ffff35fc",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1676372025.json",
+	"mirror_portraits": false,
+	"name": "Gala",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": -40,
+	"offset_y": -200,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://packages/fnf/resources/graphics/week1/Gala/Gala.png"
+		}
+	],
+	"scale": 100,
+	"theme": ""
+}

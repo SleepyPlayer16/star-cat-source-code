@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Voices.ogg-62854dfcc59211951deae6bcd122d36b.oggstr"
+
+[deps]
+
+source_file="res://packages/fnf/songs/dysphoria/Voices.ogg"
+dest_files=[ "res://.import/Voices.ogg-62854dfcc59211951deae6bcd122d36b.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

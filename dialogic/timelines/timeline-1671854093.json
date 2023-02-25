@@ -1,0 +1,163 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1652502100.cfg"
+		},
+		{
+			"background": "res://packages/fnf/resources/graphics/week6/textboxes/pixel_day_bg.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://assets/music/ominous.ogg",
+			"volume": 5
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1671854103.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": true,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1671814353.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1671854103.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Didn't 016 send you back to your dimension a few days ago?"
+		},
+		{
+			"character": "character-1671814353.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yea but some shit went down and we ended up here again hehe, sorry."
+		},
+		{
+			"character": "character-1671854103.json",
+			"event_id": "dialogic_001",
+			"portrait": "spameAnnoyed",
+			"text": "... You have caused me enough trouble you damn brat.\nMessing with Spacetime is very dangerous.\nAnd you are out there traveling from dimension to dimension like it's some kind of party...\n I'm just gonna get rid of you right here, right now."
+		},
+		{
+			"character": "character-1671814353.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wait chill, how about we settle this with a rap battle?"
+		},
+		{
+			"character": "character-1671854103.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Huh?"
+		},
+		{
+			"character": "character-1671814353.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pretty please?"
+		},
+		{
+			"character": "character-1671854103.json",
+			"event_id": "dialogic_001",
+			"portrait": "spameAnnoyed",
+			"text": "..."
+		},
+		{
+			"character": "character-1671854103.json",
+			"event_id": "dialogic_001",
+			"portrait": "spameDiscuss",
+			"text": "I cannot believe what I'm hearing...\nAlright, I guess it wouldn't hurt to roast your sorry ass before I wipe you off the face of the planet.\nYou go first."
+		},
+		{
+			"animation": "instant_out.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1671854103.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "instant_out.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1671814353.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 0.1
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.1",
+		"file": "timeline-1671854093.json",
+		"name": "Terminus"
+	}
+}

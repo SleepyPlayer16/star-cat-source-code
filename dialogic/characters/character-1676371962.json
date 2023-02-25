@@ -1,0 +1,33 @@
+{
+	"color": "#ffe7137b",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1676371962.json",
+	"mirror_portraits": false,
+	"name": "Annie",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -200,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://packages/fnf/resources/graphics/week1/Annie/Annie1.png"
+		},
+		{
+			"name": "Annoyed",
+			"path": "res://packages/fnf/resources/graphics/week1/Annie/Annie2.png"
+		},
+		{
+			"name": "Happy",
+			"path": "res://packages/fnf/resources/graphics/week1/Annie/Annie3.png"
+		},
+		{
+			"name": "Scared",
+			"path": "res://packages/fnf/resources/graphics/week1/Annie/Annie4.png"
+		}
+	],
+	"scale": 100,
+	"theme": ""
+}

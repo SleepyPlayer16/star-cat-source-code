@@ -1,0 +1,25 @@
+{
+	"color": "#ffff9e22",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1676372053.json",
+	"mirror_portraits": false,
+	"name": "Maya",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": -40,
+	"offset_y": -200,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://packages/fnf/resources/graphics/week1/Maya/Maya1.png"
+		},
+		{
+			"name": "Scared",
+			"path": "res://packages/fnf/resources/graphics/week1/Maya/Maya2.png"
+		}
+	],
+	"scale": 100,
+	"theme": ""
+}

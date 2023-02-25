@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Inst.ogg-d1d9a1cd528d6926f569c9f93a84e327.oggstr"
+
+[deps]
+
+source_file="res://packages/spacedance/songs/journey/Inst.ogg"
+dest_files=[ "res://.import/Inst.ogg-d1d9a1cd528d6926f569c9f93a84e327.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

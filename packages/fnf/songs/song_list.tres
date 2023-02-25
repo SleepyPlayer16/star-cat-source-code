@@ -1,0 +1,21 @@
+[gd_resource type="Resource" load_steps=8 format=2]
+
+[ext_resource path="res://scripts/resources/song_list/SongList.gd" type="Script" id=1]
+[ext_resource path="res://packages/fnf/resources/graphics/week_logos/spaceWeek.png" type="Texture" id=2]
+[ext_resource path="res://packages/fnf/songs/velocity/velocity.data.tres" type="Resource" id=3]
+[ext_resource path="res://packages/fnf/songs/journey/journey.data.tres" type="Resource" id=6]
+[ext_resource path="res://assets/graphics/menus/story_mode/default_difficulties.tres" type="SpriteFrames" id=32]
+[ext_resource path="res://packages/fnf/songs/zerograv/zerograv.data.tres" type="Resource" id=33]
+[ext_resource path="res://packages/fnf/songs/dysphoria/dysphoria.data.tres" type="Resource" id=34]
+
+[resource]
+script = ExtResource( 1 )
+weeks = [ {
+"level_manager_path": "res://packages/fnf/levels/managers/WeekSpace.tscn",
+"song_datas": [ ExtResource( 6 ), ExtResource( 33 ), ExtResource( 3 ), ExtResource( 34 ) ],
+"story_opponent_path": "",
+"week_difficulties": ExtResource( 32 ),
+"week_logo": ExtResource( 2 ),
+"week_name": "Space"
+} ]
+freeplay_songs = [  ]

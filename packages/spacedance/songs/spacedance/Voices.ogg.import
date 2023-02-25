@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Voices.ogg-a137ca66282beb14b5675c50e1bc87c2.oggstr"
+
+[deps]
+
+source_file="res://packages/spacedance/songs/spacedance/Voices.ogg"
+dest_files=[ "res://.import/Voices.ogg-a137ca66282beb14b5675c50e1bc87c2.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

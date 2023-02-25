@@ -1,0 +1,16 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://scripts/game/LevelManager.gd" type="Script" id=1]
+[ext_resource path="res://packages/fnf/songs/journey/journey.data.tres" type="Resource" id=2]
+[ext_resource path="res://packages/fnf/songs/zerograv/zerograv.data.tres" type="Resource" id=3]
+[ext_resource path="res://packages/fnf/songs/velocity/velocity.data.tres" type="Resource" id=4]
+[ext_resource path="res://packages/fnf/songs/dysphoria/dysphoria.data.tres" type="Resource" id=5]
+
+[node name="LevelManager" type="Node"]
+script = ExtResource( 1 )
+state_stack = [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ) ]
+state_args = [ {
+}, {
+}, {
+}, {
+} ]

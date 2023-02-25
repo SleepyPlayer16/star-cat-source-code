@@ -1,0 +1,207 @@
+[gd_scene load_steps=26 format=2]
+
+[ext_resource path="res://packages/fnf/resources/graphics/week1/shipinside.tscn" type="PackedScene" id=1]
+[ext_resource path="res://packages/fnf/resources/graphics/week1/moon.tscn" type="PackedScene" id=2]
+[ext_resource path="res://packages/fnf/resources/graphics/week1/ship/ship.tscn" type="PackedScene" id=3]
+[ext_resource path="res://packages/fnf/resources/graphics/week1/earth.glb" type="PackedScene" id=4]
+[ext_resource path="res://packages/fnf/resources/graphics/week1/AmserBackground.glb" type="PackedScene" id=5]
+[ext_resource path="res://scenes/shared/game/characters/Boyfriend3D.tscn" type="PackedScene" id=6]
+[ext_resource path="res://scenes/shared/game/characters/Girlfriend3d.tscn" type="PackedScene" id=7]
+[ext_resource path="res://packages/fnf/characters/anita/Anita.tscn" type="PackedScene" id=8]
+[ext_resource path="res://packages/fnf/characters/jazz/jazz.tscn" type="PackedScene" id=9]
+[ext_resource path="res://packages/fnf/resources/other/Planet.tscn" type="PackedScene" id=10]
+[ext_resource path="res://assets/models/spaceCylinder.tscn" type="PackedScene" id=11]
+[ext_resource path="res://assets/models/shaders/crtShader.tres" type="Shader" id=12]
+[ext_resource path="res://packages/fnf/resources/graphics/week1/tx_noise2.png" type="Texture" id=13]
+[ext_resource path="res://packages/fnf/resources/graphics/week1/tx_noise.png" type="Texture" id=14]
+[ext_resource path="res://packages/fnf/resources/graphics/week1/tx_noise3.png" type="Texture" id=15]
+[ext_resource path="res://scripts/shaders/Ripple.tres" type="Shader" id=16]
+[ext_resource path="res://scripts/shaders/glitch.tres" type="Shader" id=17]
+[ext_resource path="res://scripts/shaders/speedLinesHorizontal.tres" type="Shader" id=18]
+[ext_resource path="res://scenes/autoload/3dLoad.gd" type="Script" id=19]
+
+[sub_resource type="ShaderMaterial" id=1]
+shader = ExtResource( 12 )
+shader_param/overlay = true
+shader_param/scanlines_opacity = 0.0
+shader_param/scanlines_width = 0.0
+shader_param/grille_opacity = 0.333
+shader_param/resolution = Vector2( 640, 480 )
+shader_param/pixelate = false
+shader_param/roll = true
+shader_param/roll_speed = 3.0
+shader_param/roll_size = 16.099
+shader_param/roll_variation = 2.393
+shader_param/distort_intensity = 0.006
+shader_param/noise_opacity = 0.257
+shader_param/noise_speed = 5.0
+shader_param/static_noise_intensity = 0.06
+shader_param/aberration = -0.014
+shader_param/brightness = 1.4
+shader_param/discolor = false
+shader_param/warp_amount = 0.341
+shader_param/clip_warp = false
+shader_param/vignette_intensity = 0.4
+shader_param/vignette_opacity = 0.192
+
+[sub_resource type="AnimatedTexture" id=5]
+flags = 4
+frames = 3
+fps = 10.0
+frame_0/texture = ExtResource( 14 )
+frame_1/texture = ExtResource( 13 )
+frame_1/delay_sec = 0.0
+frame_2/texture = ExtResource( 15 )
+frame_2/delay_sec = 0.0
+
+[sub_resource type="ShaderMaterial" id=6]
+shader = ExtResource( 18 )
+shader_param/line_color_a = Color( 1, 1, 1, 0 )
+shader_param/line_color_b = Color( 1, 1, 1, 1 )
+shader_param/line_threshold = -0.025
+shader_param/inverse_speed = 10.0
+shader_param/line_length = 1000.0
+shader_param/angle = 0.0
+shader_param/noise = SubResource( 5 )
+
+[sub_resource type="ShaderMaterial" id=7]
+shader = ExtResource( 16 )
+shader_param/wave_count = 10.0
+shader_param/speed = 1.4
+shader_param/height = 0.016
+
+[sub_resource type="ShaderMaterial" id=8]
+shader = ExtResource( 12 )
+shader_param/overlay = true
+shader_param/scanlines_opacity = 0.0
+shader_param/scanlines_width = 0.0
+shader_param/grille_opacity = 0.333
+shader_param/resolution = Vector2( 640, 480 )
+shader_param/pixelate = false
+shader_param/roll = true
+shader_param/roll_speed = 3.0
+shader_param/roll_size = 16.099
+shader_param/roll_variation = 2.393
+shader_param/distort_intensity = 0.006
+shader_param/noise_opacity = 0.257
+shader_param/noise_speed = 5.0
+shader_param/static_noise_intensity = 0.06
+shader_param/aberration = -0.014
+shader_param/brightness = 1.4
+shader_param/discolor = false
+shader_param/warp_amount = 0.341
+shader_param/clip_warp = false
+shader_param/vignette_intensity = 0.4
+shader_param/vignette_opacity = 0.192
+
+[sub_resource type="ShaderMaterial" id=9]
+shader = ExtResource( 17 )
+shader_param/shake_power = 0.0
+shader_param/shake_rate = 0.257
+shader_param/shake_speed = 3.119
+shader_param/shake_block_size = 30.0
+shader_param/shake_color_rate = 0.005
+
+[node name="Spatial" type="Spatial"]
+script = ExtResource( 19 )
+
+[node name="Spatial" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 38.8741, 0, 0 )
+
+[node name="moon" parent="Spatial" instance=ExtResource( 2 )]
+transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 3.29886, 1.55459, -12.3626 )
+
+[node name="earth" parent="Spatial" instance=ExtResource( 4 )]
+transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, -0.178633, -1.65512, -8.67514 )
+
+[node name="AmserBackground" parent="Spatial" instance=ExtResource( 5 )]
+transform = Transform( 0.05, 0, 0, 0, 0.05, 0, 0, 0, 0.05, 0.650291, -13.5171, 13.5611 )
+
+[node name="ship" parent="Spatial" instance=ExtResource( 3 )]
+transform = Transform( 0.83045, 0, -0.557093, 0, 1, 0, 0.557093, 0, 0.83045, -5.333, 5.56662, -0.903362 )
+
+[node name="shipinside" parent="Spatial" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.49438, -14.2286, -9.27288 )
+
+[node name="Boyfriend" parent="Spatial" instance=ExtResource( 6 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.6551, -9.72959, -16.0253 )
+
+[node name="Girlfriend" parent="Spatial" instance=ExtResource( 7 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.7407, -10.6743, -12.1387 )
+
+[node name="jazz" parent="Spatial" instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.691, -9.61404, -9.24337 )
+
+[node name="Anita" parent="Spatial" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.8358, -8.3486, -6.57032 )
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 0.117017, 0, -0.99313, 0, 1, 0, 0.99313, 0, 0.117017, 0, 0, 0 )
+
+[node name="spaceCylinder" parent="." instance=ExtResource( 11 )]
+transform = Transform( 0.188253, 0, -0.0661059, 0, 0.199522, 0, 0.0661059, 0, 0.188253, 48.091, -4.46083, -76.6255 )
+
+[node name="Planet" parent="." instance=ExtResource( 10 )]
+transform = Transform( 0.188253, 0, -0.0661059, 0, 0.199522, 0, 0.0661059, 0, 0.188253, 49.2441, -4.61415, -75.8532 )
+shouldMove = true
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+material = SubResource( 1 )
+margin_right = 38.0
+margin_bottom = 32.0
+rect_scale = Vector2( 33.711, 22.56 )
+
+[node name="BlackBar" type="ColorRect" parent="CanvasLayer"]
+margin_right = 1285.0
+margin_bottom = 82.0
+color = Color( 0, 0, 0, 1 )
+
+[node name="BlackBar2" type="ColorRect" parent="CanvasLayer"]
+margin_top = 638.0
+margin_right = 1285.0
+margin_bottom = 720.0
+color = Color( 0, 0, 0, 1 )
+
+[node name="CanvasLayer3" type="CanvasLayer" parent="."]
+
+[node name="SpeedLines" type="ColorRect" parent="CanvasLayer3"]
+material = SubResource( 6 )
+margin_top = -654.0
+margin_right = 1412.0
+margin_bottom = 178.0
+
+[node name="SpeedLines2" type="ColorRect" parent="CanvasLayer3/SpeedLines"]
+material = SubResource( 6 )
+margin_top = 1193.0
+margin_right = 1412.0
+margin_bottom = 2025.0
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="."]
+
+[node name="woaa" type="ColorRect" parent="CanvasLayer2"]
+material = SubResource( 7 )
+margin_right = 1551.0
+margin_bottom = 1017.0
+
+[node name="CanvasLayer4" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer4"]
+material = SubResource( 8 )
+margin_right = 38.0
+margin_bottom = 32.0
+rect_scale = Vector2( 33.711, 22.56 )
+
+[node name="glitch" type="ColorRect" parent="CanvasLayer4"]
+material = SubResource( 9 )
+margin_right = 40.0
+margin_bottom = 40.0
+rect_scale = Vector2( 37.2802, 22.4543 )
+
+[node name="ColorRect2" type="ColorRect" parent="CanvasLayer4"]
+margin_left = -216.0
+margin_top = -785.0
+margin_right = 1691.0
+margin_bottom = 1458.0
+color = Color( 0, 0, 0, 1 )

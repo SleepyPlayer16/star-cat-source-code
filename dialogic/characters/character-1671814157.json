@@ -1,0 +1,21 @@
+{
+	"color": "#fffff22e",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1671814157.json",
+	"mirror_portraits": false,
+	"name": "Jazz",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 120,
+	"offset_y": -200,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://packages/fnf/characters/jazz/jazzPortrait.png"
+		}
+	],
+	"scale": 100,
+	"theme": ""
+}

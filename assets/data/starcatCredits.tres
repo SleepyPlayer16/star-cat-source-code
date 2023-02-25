@@ -1,0 +1,91 @@
+[gd_resource type="Resource" load_steps=18 format=2]
+
+[ext_resource path="res://scripts/resources/mod_credits/ModCredits.gd" type="Script" id=1]
+[ext_resource path="res://assets/graphics/menus/credits/chair_icon.png" type="Texture" id=2]
+[ext_resource path="res://scripts/resources/credit_entry/CreditEntry.gd" type="Script" id=3]
+[ext_resource path="res://assets/graphics/menus/credits/hang_icon.png" type="Texture" id=4]
+[ext_resource path="res://assets/graphics/menus/credits/spider_icon.png" type="Texture" id=5]
+[ext_resource path="res://assets/graphics/menus/credits/sakk_icon.png" type="Texture" id=6]
+[ext_resource path="res://assets/graphics/menus/credits/stardust_icon.png" type="Texture" id=7]
+[ext_resource path="res://assets/graphics/menus/credits/StarcatCrew_icon.png" type="Texture" id=8]
+[ext_resource path="res://assets/graphics/menus/credits/slep_icon.png" type="Texture" id=9]
+[ext_resource path="res://assets/graphics/menus/credits/luna_icon.png" type="Texture" id=10]
+
+[sub_resource type="Resource" id=1]
+script = ExtResource( 3 )
+icons = [ ExtResource( 9 ) ]
+name = "Slep16"
+roles_or_contributions = "Programmer
+Musician
+Artist
+Animator
+Charter
+3d Modeler"
+links = [ "https://www.youtube.com/channel/UC3ygT6qrQGQQXV3Si5lSuuA", "https://twitter.com/RealSleP16", "https://sleepyplayer16.itch.io/" ]
+link_names = [ "YouTube", "Twitter", "Itch.io" ]
+link_colors = [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ) ]
+
+[sub_resource type="Resource" id=3]
+script = ExtResource( 3 )
+icons = [ ExtResource( 7 ) ]
+name = "Stardust Tunes"
+roles_or_contributions = "Musician"
+links = [ "https://www.youtube.com/@StardustTunes", "https://twitter.com/StardustTunes" ]
+link_names = [ "YouTube", "Twitter" ]
+link_colors = [  ]
+
+[sub_resource type="Resource" id=4]
+script = ExtResource( 3 )
+icons = [ ExtResource( 10 ) ]
+name = "Lunaluna"
+roles_or_contributions = "Artist
+Chromatics
+Playtester"
+links = [ "https://twitter.com/Clover_lunacy" ]
+link_names = [ "Twitter" ]
+link_colors = [  ]
+
+[sub_resource type="Resource" id=5]
+script = ExtResource( 3 )
+icons = [ ExtResource( 5 ) ]
+name = "Spider Boi"
+roles_or_contributions = "Artist
+Playtester"
+links = [ "https://twitter.com/SpiderBoioboi" ]
+link_names = [ "Twitter" ]
+link_colors = [  ]
+
+[sub_resource type="Resource" id=2]
+script = ExtResource( 3 )
+icons = [ ExtResource( 6 ) ]
+name = "SAKK"
+roles_or_contributions = "Musician
+Playtester"
+links = [  ]
+link_names = [  ]
+link_colors = [  ]
+
+[sub_resource type="Resource" id=9]
+script = ExtResource( 3 )
+icons = [ ExtResource( 2 ) ]
+name = "ChairGTables"
+roles_or_contributions = "Playtester
+(Play Hazuki Dies when it comes out cute game)"
+links = [ "https://twitter.com/ChairGTables", "https://www.youtube.com/@ChairGTables", "https://www.twitch.tv/chairgtables", "https://store.steampowered.com/app/2228000/Hazuki_Dies_She_Has_No_Name/" ]
+link_names = [ "Twitter", "Youtube", "Twitch", "Hazuki Dies" ]
+link_colors = [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ), Color( 1, 0.584314, 0.145098, 1 ) ]
+
+[sub_resource type="Resource" id=6]
+script = ExtResource( 3 )
+icons = [ ExtResource( 4 ) ]
+name = "Hang"
+roles_or_contributions = "Playtester"
+links = [ "https://www.youtube.com/@Hang13/videos", "https://twitter.com/HangBoy13" ]
+link_names = [ "Youtube", "Twitter" ]
+link_colors = [  ]
+
+[resource]
+script = ExtResource( 1 )
+mod_icon = ExtResource( 8 )
+mod_name = "Star Cat"
+credits = [ SubResource( 1 ), SubResource( 3 ), SubResource( 4 ), SubResource( 5 ), SubResource( 2 ), SubResource( 9 ), SubResource( 6 ) ]

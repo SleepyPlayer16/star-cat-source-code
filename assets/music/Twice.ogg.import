@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Twice.ogg-46858a51bf0e26dedd8651998788baa2.oggstr"
+
+[deps]
+
+source_file="res://assets/music/Twice.ogg"
+dest_files=[ "res://.import/Twice.ogg-46858a51bf0e26dedd8651998788baa2.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

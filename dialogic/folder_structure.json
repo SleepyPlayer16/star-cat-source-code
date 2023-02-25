@@ -1,0 +1,90 @@
+{
+	"files": [
+
+	],
+	"folders": {
+		"Characters": {
+			"files": [
+				"character-1652414206.json",
+				"character-1652417409.json",
+				"character-1652502375.json",
+				"character-1671814157.json",
+				"character-1671814353.json",
+				"character-1671854103.json",
+				"character-1676371887.json",
+				"character-1676371962.json",
+				"character-1676372025.json",
+				"character-1676372053.json"
+			],
+			"folders": {
+
+			},
+			"metadata": {
+				"color": null,
+				"folded": false
+			}
+		},
+		"Definitions": {
+			"files": [
+
+			],
+			"folders": {
+
+			},
+			"metadata": {
+				"color": null,
+				"folded": false
+			}
+		},
+		"Themes": {
+			"files": [
+				"default-theme.cfg",
+				"theme-1652484236.cfg",
+				"theme-1652502100.cfg",
+				"theme-1671884108.cfg"
+			],
+			"folders": {
+
+			},
+			"metadata": {
+				"color": null,
+				"folded": false
+			}
+		},
+		"Timelines": {
+			"files": [
+				"timeline-1676371571.json",
+				"timeline-1676727001.json",
+				"timeline-1671809275.json",
+				"timeline-1671854093.json",
+				"timeline-1677057880.json"
+			],
+			"folders": {
+				"fnf": {
+					"files": [
+						"fnf_Senpai.json",
+						"fnf_Roses.json",
+						"fnf_Thorns.json",
+						"timeline-1671814630.json",
+						"timeline-1671814638.json",
+						"timeline-1671814639.json",
+						"timeline-1671814668.json",
+						"timeline-1671814677.json",
+						"timeline-1671814703.json~RF115e54b.TMP"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": true
+					}
+				}
+			},
+			"metadata": {
+				"color": null,
+				"folded": false
+			}
+		}
+	}
+}

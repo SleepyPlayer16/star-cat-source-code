@@ -1,0 +1,251 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1652502100.cfg"
+		},
+		{
+			"background": "res://packages/fnf/resources/graphics/week1/Cutscenes/Dysphoria/blackbg.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 0
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://assets/music/AmserDemo.ogg",
+			"volume": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://assets/sounds/sfx_bfDies.wav",
+			"volume": 0
+		},
+		{
+			"background": "res://packages/fnf/resources/graphics/week1/Cutscenes/Dysphoria/part1.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2,
+			"waiting_skippable": false
+		},
+		{
+			"background": "res://packages/fnf/resources/graphics/week1/Cutscenes/Dysphoria/part1Two.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 4,
+			"waiting_skippable": false
+		},
+		{
+			"background": "res://packages/fnf/resources/graphics/week1/Cutscenes/Dysphoria/part2.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://assets/sounds/sfx_axe.wav",
+			"volume": 0
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"background": "res://packages/fnf/resources/graphics/week1/Cutscenes/Dysphoria/blackbg.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 1
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2,
+			"waiting_skippable": false
+		},
+		{
+			"background": "res://packages/fnf/resources/graphics/week6/textboxes/pixel_day_bg.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 0
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://assets/music/Twice.ogg",
+			"volume": 0
+		},
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 0.5,
+			"animation_wait": false,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1671814157.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "2-fade_in_up.gd",
+			"animation_length": 0.5,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1671814353.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "bfPortraitNormal",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1671814157.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Woah, what the hell?\nYou two showed up out of nowhere"
+		},
+		{
+			"character": "character-1671814353.json",
+			"event_id": "dialogic_001",
+			"portrait": "bfPortraitNormal",
+			"text": "We have no idea how we arrived here again either\nLast thing I can remember is that we were trying to escape from a black hole and..."
+		},
+		{
+			"character": "character-1671814353.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Oh... wait what the fuck, a talking doll?"
+		},
+		{
+			"character": "character-1671814157.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A black hole? Huh...\nYou know what, I ain't even gonna question it, I've seen some crazy shit too, hold up, is that a mic you're holding?"
+		},
+		{
+			"character": "character-1671814353.json",
+			"event_id": "dialogic_001",
+			"portrait": "bfPortraitNormal",
+			"text": "Hell yea"
+		},
+		{
+			"character": "character-1671814157.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You son of a bitch, sing a song with me, I've been practicin' my singing skills lately"
+		},
+		{
+			"character": "character-1671814353.json",
+			"event_id": "dialogic_001",
+			"portrait": "bfPortraitNormal",
+			"text": "Aight, sure, why not?"
+		},
+		{
+			"animation": "instant_out.gd",
+			"animation_length": 0,
+			"animation_wait": false,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1671814157.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "instant_out.gd",
+			"animation_length": 0,
+			"animation_wait": false,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1671814353.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1.5,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 0.1
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.1",
+		"file": "timeline-1671809275.json",
+		"name": "Dysphoria"
+	}
+}
