@@ -4,7 +4,7 @@
 
 Have fun figuring out SleP16's code
 
-## Credits / Attributions
+##  BENJINE Credits / Attributions
 **ThisIsBennyK** - Lead developer, programmer, graphic designer, UI designer ([YT](https://www.youtube.com/channel/UCu7zwXQxp4rHmGhW9Dmulkg) / [Twitter](https://twitter.com/thisisbennyk) / [Other Games](https://thisisbennyk.itch.io))  
 **DodZonedOut** - Options music (it's called "Grease Monkey" and it slaps) ([YT](https://www.youtube.com/channel/UCWAWJ_hikRCypGpcIY8KZIw) / [Twitter](https://twitter.com/DodZonedOut) / [SoundCloud](https://soundcloud.com/dodzonedout))  
 **Sayge3D** - 3D note model ([Carrd](https://sayge3d.carrd.co/))  
